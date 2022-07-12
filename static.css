@@ -108,31 +108,19 @@ nav{
 }
 
 /* feedback section */
-.feedback_section{
-    background-image: url(img/bg.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    margin: 0px;
-    overflow: hidden;
-    padding-top: 60px;
-    height:350px;
-    font-family: 'Merriweather', serif;
+
+#feedback-section{
+    padding: 3% 0;
+    background-image: url(D:/img/bg.jpg);
+    background-size: cover;
     color: #fff;
-}  
-.fb-row {
-    
+    text-align: center;
 }
-#r1 {
-    text-align: center;
-} 
-#r2 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap:10px;
-    padding: 10px;
-    margin: 0;
-    text-align: center;
-    background-color:linear-gradient(rgb(73, 7, 7),rgb(152, 29, 29),rgb(11, 11, 11));
+.fb-row{
+    display: flex;
+    flex-direction: row;
+    
+
 }
 
 /* footer section */
