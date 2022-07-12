@@ -75,6 +75,25 @@ nav{
     padding:0 3%;
 }
 
+/* button-section */
+.button-section{
+    background-image: linear-gradient(rgb(187, 47, 129),rgb(165, 112, 167),rgb(187, 47, 129));
+    margin:0;
+    padding:2% 45%;
+    /* align-items: center; */
+}
+
+.button{
+    background-image: linear-gradient(rgb(142, 99, 134),rgb(101, 20, 105),rgb(118, 10, 118));
+    padding:3%;
+    border-radius: 5%;
+    border-color: rgb(13, 73, 105);    
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+}
+
 /* product section */
 .product_section{
     background-color: rgb(206, 135, 206);
