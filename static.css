@@ -56,38 +56,23 @@ nav{
 }
 
 /* about brand */
-.info_section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 55vh;
+#brand{
     background-image: linear-gradient(rgb(191, 158, 177),rgb(255, 182, 239),rgb(179, 65, 152));
-    color:rgb(165, 45, 11);
     text-align: center;
-    
-    
+    padding: 1%;
 }
-.info_text{
-    font-family: 'Fuzzy Bubbles', cursive;
-    padding:60px;
-}
-.brand-title{
-    font-family: 'Caudex', serif;
+#brand-title{
+    color:rgb(165, 45, 11);
     text-transform: uppercase;
-    padding:10px;
+    font-family: 'Caudex', serif;
 }
-.about-brand{
-    color:rgb(101, 23, 49);
-    overflow: hidden;
+#b1{
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding:0 10%;
 }
-#p1{
-    padding: 0 20%;
-}
-#p2{
-    padding-top: 8px;
-    word-spacing: 20px;
-    
+#b2{
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding:0 3%;
 }
 
 /* product section */
